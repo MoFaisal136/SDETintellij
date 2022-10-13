@@ -1,0 +1,12 @@
+Method Overloading:
+-Allows us to have same name methods or constructors but with different parameters
+
+Why use Method Overloading?
+-Gives flexibility to end user so they can call a different method in different ways
+-Helps write cleaner code
+
+Syntax:
+Create different methods but keep the following points in mind
+1. Overload method by passing diff num of para
+2. changing data type of para
+3. changing sequence

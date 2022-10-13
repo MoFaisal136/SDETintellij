@@ -1,0 +1,16 @@
+Constructor:
+-help us give initial values to the fields of a class
+
+Why use a constructor?:
+-help us write cleaner code
+-give us more ctrl over values that an end user can assign to the fields of a class
+
+Syntax of Constructor:
+Access modifier className (parameters){
+
+}
+Class Dog{
+String name;
+public Dog(String dogName) //<- needs to be same as class name
+name= dogName;
+}

@@ -1,0 +1,22 @@
+*Access Modifiers:
+-Are Keywords in Java that ctrl the access of methods, fields, or the class
+-4 access lvls
+
+Lvl 1) KEYWORD Private-> can only be accessed within the same class. MOST RESTRICTED.
+For (fields/properties/state of a class), we should always try to have private access
+so that data is secured
+
+Lvl 2) Default-> not a keyword its just an access lvl. If we don't we use any keyword java
+applies automatically. Once applied we can access those entities within the same class as well
+as any class within same package.
+
+Lvl 3) KEYWORD Protected -> When applied entities can be accessed outside of the package as well
+but only in the class that has parent-child relationship.
+
+Lvl 4) KEYWORD Public -> When applied to an entity that entity can be accessed anywhere
+inside that project. Usually the classes itself and methods are declared as public.
+
+NOTE:
+If we are inside the same class we can call a method inside another by just writing its name.
+But we need to take care that these methods are both either static or non-static.
+
