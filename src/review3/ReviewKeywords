@@ -1,0 +1,3 @@
+*this keyword when local and instance have same variables. This refers to instance variables
+-local are inside classes
+-instance are outside of classes inside main class
